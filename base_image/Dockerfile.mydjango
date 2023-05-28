@@ -1,5 +1,5 @@
 ARG BaseImage=python
-ARG ImageTag=3.7.3
+ARG ImageTag=3.9
 FROM $BaseImage:$ImageTag
 ENV PYTHONUNBUFFERED 1
 ARG DjangoVersion=4.1
